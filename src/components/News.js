@@ -10,7 +10,7 @@ export class News extends Component {
         }
     }
     async componentDidMount(){
-      let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=307b58ea755e463fbe5516dd7e3922c5&page=1&pageSize=20"
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=307b58ea755e463fbe5516dd7e3922c5&page=1&pageSize=20`
       let data = await fetch(url);
       let parsedData = await data.json()
       this.setState({
@@ -59,7 +59,7 @@ export class News extends Component {
         </div>
         <div className='d-flex justify-content-center'>
           <button disabled={this.state.page === 1?true:false}className='button mx-2' onClick={this.handlePrevClick}>&larr; Prev</button>
-          <button className='button mx-2' onClick={this.handleNextClick}>Next &rarr;</button>
+          <button disabled={this.state.page+1 > Math.ceil(this.state.totalResults/20)}className='button mx-2' onClick={this.handleNextClick}>Next &rarr;</button>
         </div>    
       </div>
     )

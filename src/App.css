@@ -54,6 +54,13 @@ input:focus {
   border-radius: 4px;
 }
 
+.navbar-2{
+   background-color: #222;
+   min-height: 50px;
+   display: flex;
+   justify-content: center;
+}
+
 .button{
   background-color: #423E70;
   padding: 8px;
