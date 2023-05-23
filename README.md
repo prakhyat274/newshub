@@ -1,6 +1,6 @@
-# React News App
+# NewsHub
 
-The React News App is a web application built with React that allows users to browse and read news articles from various sources using the News API.
+The NewsHub is a web application built with React that allows users to browse and read news articles from various sources using the News API.
 
 ## Features
 
@@ -11,7 +11,7 @@ The React News App is a web application built with React that allows users to br
 - Responsive design for optimal viewing experience on different devices.
 
 ## Installation
-To run the React News App locally on your machine, follow these steps:
+To run the NewsHub App locally on your machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
@@ -43,26 +43,25 @@ Replace your-api-key with the API key obtained from the News API.
     npm start
     ```
 
-This will launch the React News App on your local machine. You can access it by opening your web browser and navigating to http://localhost:3000.
+This will launch the NewsHub App on your local machine. You can access it by opening your web browser and navigating to http://localhost:3000.
 
 ## Configuration
 
-The React News App uses environment variables to configure the application. The API key for the News API is stored in the `.env.local` file. Make sure to replace `your-api-key` with your actual API key.
+The NewsHub App uses environment variables to configure the application. The API key for the News API is stored in the `.env.local` file. Make sure to replace `your-api-key` with your actual API key.
 
 ### Dependencies
 
-The React News App relies on the following dependencies:
+The NewsHub App relies on the following dependencies:
 
 - React: JavaScript library for building user interfaces.
 - Bootstrap: CSS framework for responsive and mobile-first web development.
-- react-bootstrap: React components for Bootstrap.
 - react-router-dom: React library for handling routing in a single-page application.
 
 These dependencies are automatically installed when running `npm install`.
 
 ## API Usage
 
-The React News App uses the News API to fetch news articles. It supports the following API endpoints:
+The NewsHub App uses the News API to fetch news articles. It supports the following API endpoints:
 
 - Top headlines: Fetches the top headlines from various sources.
 
@@ -82,15 +81,14 @@ For more details on the News API and its endpoints, refer to the [News API docum
 
 ## Contributing
 
-Contributions to the React News App are welcome! If you have any bug fixes, improvements, or new features to propose, please submit a pull request. Ensure that your code follows the established coding conventions and passes all tests.
+Contributions to the NewsHub App are welcome! If you have any bug fixes, improvements, or new features to propose, please submit a pull request. Ensure that your code follows the established coding conventions and passes all tests.
 
 ## Acknowledgments
 
-The React News App is made possible thanks to the following:
+The NewsHub App is made possible thanks to the following:
 
 - The News API (https://newsapi.org) for providing access to news articles.
 - Bootstrap (https://getbootstrap.com) for the CSS framework.
-- react-bootstrap (https://react-bootstrap.github.io) for the React components.
 - react-router-dom (https://reactrouter.com) for routing in the React app.
 
 Feel free to customize the README documentation based on your specific project requirements, including any additional details or information you want to provide.
