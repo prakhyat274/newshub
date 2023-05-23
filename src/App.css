@@ -14,6 +14,7 @@ input:focus {
 
 .navbar{
   display: flex;
+  justify-content: space-between;
   padding: 10px 20px;
   min-height: 30px;
   background-color: #2E2A4E;
@@ -24,17 +25,12 @@ input:focus {
   width: 100px;
 }
 
-.nav-items{
-  display: flex;
-}
-
 .nav-items ul{
   display: flex;
   margin: 0;
   margin-right: 50px;
   list-style-type: none;
   height: 100%;
-  align-items: center;
 }
 
 .nav-items ul li a{
@@ -48,17 +44,13 @@ input:focus {
   background-color: #423E70;
 }
 
-.search{
-  border: 1px solid #CCCCCC;
-  padding: 5px 10px;
-  border-radius: 4px;
+.burger-menu{
+  border: 1px solid whitesmoke;
+  border-radius: 0;
 }
 
-.navbar-2{
-   background-color: #222;
-   min-height: 50px;
-   display: flex;
-   justify-content: center;
+.burger-menu-icon{
+  color: whitesmoke;
 }
 
 .button{
